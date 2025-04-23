@@ -433,5 +433,13 @@
     
     .section-title {
       font-size: 2rem;
-    }
+    } 
+    /* Video Centering */
+  .video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  }
+
   }
