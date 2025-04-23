@@ -434,12 +434,21 @@
     .section-title {
       font-size: 2rem;
     } 
-    /* Video Centering */
-  .video-wrapper {
+  /* Video Centering */
+.video-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0;
-  }
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.video-wrapper video {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #e63946;
+  border-radius: 10px;
+}
 
   }
